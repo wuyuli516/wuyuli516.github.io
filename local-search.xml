@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  
+  
+  
+  <entry>
+    <title>test post</title>
+    <link href="/2022/08/23/test-post/"/>
+    <url>/2022/08/23/test-post/</url>
+    
+    <content type="html"><![CDATA[<p>I’ve always wanted to have my own blog. But I didn’t do anything concrete for a few years. It feels like being someone with a bunch of intriguing ideas, daydreaming, but has zero executive force. I recall that I used to have the desire to talk, to share, to write down stuffs that irritate me or things that I lament. That should be the high school years. Before that, I was an ambitious kid who was arrogant and didn’t understand what is failure. I narrowly considered writing a means to prove that I was “excellent”. I was too ambitious, hoping to write down “good” articles too eagerly but it turns out that those essays are just rubbish. The turning point comes in the high school years. After that, in my college years now, I rarely have a desire to write down something or share my feelings with others. Especially in the holiday. I don’t know why. This test post is perhaps the first time in 2022 that I organize my language into an article. </p><p>Even today, I feel like I can be very easily captured by the trap of being “good” or even the best. It seems like there is very few left apart from that desire to make accomplishments. I am very lazy in some aspects in life, like cooking or cleaning. I just don’t have that energy to do these stuffs. It is too difficult for me to start. I find it a problem as well.</p>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>scribble</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="/2022/08/20/hello-world/"/>
+    <url>/2022/08/20/hello-world/</url>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo new <span class="hljs-string">&quot;My New Post&quot;</span><br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo server<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo generate<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo deploy<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  
+</search>
