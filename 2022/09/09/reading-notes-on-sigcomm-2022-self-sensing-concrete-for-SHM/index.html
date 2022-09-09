@@ -16,22 +16,22 @@
   <meta name="author" content="Yuli Wu">
   <meta name="keywords" content="">
   
-    <meta name="description" content="I’ve always wanted to have my own blog. But I didn’t do anything concrete for a few years. It feels like being someone with a bunch of intriguing ideas, daydreaming, but has zero executive force. I re">
+    <meta name="description" content="vocabulary &amp; abbreviation faraday cage fiber optical sensor fiber Bragg grating sensor piezoelectric sensor elastic wave: comprises of body wave and surface wave body wave: comprises of primary wa">
 <meta property="og:type" content="article">
-<meta property="og:title" content="test post">
-<meta property="og:url" content="https://wuyuli516.github.io/2022/08/23/test-post/index.html">
+<meta property="og:title" content="reading notes on sigcomm 2022 self-sensing concrete for structure health monitoring">
+<meta property="og:url" content="https://wuyuli516.github.io/2022/09/09/reading-notes-on-sigcomm-2022-self-sensing-concrete-for-SHM/index.html">
 <meta property="og:site_name" content="sixmemos">
-<meta property="og:description" content="I’ve always wanted to have my own blog. But I didn’t do anything concrete for a few years. It feels like being someone with a bunch of intriguing ideas, daydreaming, but has zero executive force. I re">
+<meta property="og:description" content="vocabulary &amp; abbreviation faraday cage fiber optical sensor fiber Bragg grating sensor piezoelectric sensor elastic wave: comprises of body wave and surface wave body wave: comprises of primary wa">
 <meta property="og:locale" content="en_US">
-<meta property="article:published_time" content="2022-08-23T14:34:25.000Z">
-<meta property="article:modified_time" content="2022-08-23T15:13:57.536Z">
+<meta property="article:published_time" content="2022-09-09T15:25:44.000Z">
+<meta property="article:modified_time" content="2022-09-09T16:10:39.746Z">
 <meta property="article:author" content="Yuli Wu">
-<meta property="article:tag" content="scribble">
+<meta property="article:tag" content="paper reading">
 <meta name="twitter:card" content="summary_large_image">
   
   
   
-  <title>test post - sixmemos</title>
+  <title>reading notes on sigcomm 2022 self-sensing concrete for structure health monitoring - sixmemos</title>
 
   <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
 
@@ -196,7 +196,7 @@
       <div class="banner-text text-center fade-in-up">
         <div class="h2">
           
-            <span id="subtitle" data-typed-text="test post"></span>
+            <span id="subtitle" data-typed-text="reading notes on sigcomm 2022 self-sensing concrete for structure health monitoring"></span>
           
         </div>
 
@@ -207,8 +207,8 @@
     
       <span class="post-meta">
         <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-        <time datetime="2022-08-23 22:34" pubdate>
-          August 23, 2022 pm
+        <time datetime="2022-09-09 23:25" pubdate>
+          September 9, 2022 pm
         </time>
       </span>
     
@@ -219,7 +219,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          1.1k words
+          1.5k words
         
       </span>
     
@@ -230,7 +230,7 @@
         
         
         
-          9 mins
+          13 mins
         
       </span>
     
@@ -268,14 +268,41 @@
         <div id="board">
           <article class="post-content mx-auto">
             <!-- SEO header -->
-            <h1 style="display: none">test post</h1>
+            <h1 style="display: none">reading notes on sigcomm 2022 self-sensing concrete for structure health monitoring</h1>
             
             
               <div class="markdown-body">
                 
-                <p>I’ve always wanted to have my own blog. But I didn’t do anything concrete for a few years. It feels like being someone with a bunch of intriguing ideas, daydreaming, but has zero executive force. I recall that I used to have the desire to talk, to share, to write down stuffs that irritate me or things that I lament. That should be the high school years. Before that, I was an ambitious kid who was arrogant and didn’t understand what is failure. I narrowly considered writing a means to prove that I was “excellent”. I was too ambitious, hoping to write down “good” articles too eagerly but it turns out that those essays are just rubbish. The turning point comes in the high school years. After that, in my college years now, I rarely have a desire to write down something or share my feelings with others. Especially in the holiday. I don’t know why. This test post is perhaps the first time in 2022 that I organize my language into an article. </p>
-<p>Even today, I feel like I can be very easily captured by the trap of being “good” or even the best. It seems like there is very few left apart from that desire to make accomplishments. I am very lazy in some aspects in life, like cooking or cleaning. I just don’t have that energy to do these stuffs. It is too difficult for me to start. I find it a problem as well.</p>
-
+                <h2 id="vocabulary-amp-abbreviation"><a href="#vocabulary-amp-abbreviation" class="headerlink" title="vocabulary &amp; abbreviation"></a>vocabulary &amp; abbreviation</h2><ul>
+<li>faraday cage</li>
+<li>fiber optical sensor</li>
+<li>fiber Bragg grating sensor</li>
+<li>piezoelectric sensor</li>
+<li>elastic wave: comprises of body wave and surface wave</li>
+<li>body wave: comprises of primary wave(P-wave) and secondary wave(S-wave)</li>
+<li>PZT: convert mechanical waves into electric signals at the same frequency or vice versa</li>
+<li>PBS: piezoelectric backscatter system</li>
+<li>OOK: on&#x2F;off keying</li>
+<li>FSK: frequency shifting keying</li>
+<li>Helmholtz resonator</li>
+<li>critical angle</li>
+<li>Snell’s law</li>
+<li>PIE: pulse interval encoding</li>
+<li>impedance switch:?</li>
+<li>FM0 coding scheme:?</li>
+<li>BLF: backscatter link frequency ?</li>
+<li>TDMA: time division multiple access (mechanism ?)</li>
+<li>Young’s modulus</li>
+</ul>
+<h2 id="inspiration"><a href="#inspiration" class="headerlink" title="inspiration"></a>inspiration</h2><p>piezoelectric backscatter system applied in underwater communication<sup id="fnref:1" class="footnote-ref"><a href="#fn:1" rel="footnote"><span class="hint--top hint--rounded" aria-label="Reza Ghaarivardavagh, Sayed Saad Afzal, Osvy Rodriguez, and Fadel Adib. 2020.Ultra-wideband underwater backscatter via piezoelectric metamaterials. In Proc.of ACM SIGCOMM. 722–734.">[1]</span></a></sup><sup id="fnref:2" class="footnote-ref"><a href="#fn:2" rel="footnote"><span class="hint--top hint--rounded" aria-label="Junsu Jang and Fadel Adib. 2019. Underwater backscatter networking. In Proc. of ACM SIGCOMM. 187–199.">[2]</span></a></sup></p>
+<h2 id="challenges"><a href="#challenges" class="headerlink" title="challenges"></a>challenges</h2><ol>
+<li>The propagation of mechanical waves in solid is more complicated than in liquid. In solid, there are several modes of wave, leading to severe self-interference. While in liquid, there is only one mode, making it easier to harvest energy and decode symbol. –&gt; leverage prism to eliminate other modes and maintain only S-waves</li>
+<li>Due to the ring effect, the PZT still vibrates after turning off the voltage, leading to self-interference. So traditional OOK method does not work. –&gt; leverage resonant effect and FSK to tackle the problem</li>
+<li>The high external pressure from concrete. –&gt; design spherical and stressless shells to combat against the pressure, add Helmholtz resonator to amplify the received waves</li>
+</ol>
+<h2 id="reference"><a href="#reference" class="headerlink" title="reference"></a>reference</h2><section class="footnotes"><div class="footnote-list"><ol><li><span id="fn:1" class="footnote-text"><span>Reza Ghaarivardavagh, Sayed Saad Afzal, Osvy Rodriguez, and Fadel Adib. 2020.Ultra-wideband underwater backscatter via piezoelectric metamaterials. In Proc.of ACM SIGCOMM. 722–734.
+<a href="#fnref:1" rev="footnote" class="footnote-backref"> ↩</a></span></span></li><li><span id="fn:2" class="footnote-text"><span>Junsu Jang and Fadel Adib. 2019. Underwater backscatter networking. In Proc. of ACM SIGCOMM. 187–199.
+<a href="#fnref:2" rev="footnote" class="footnote-backref"> ↩</a></span></span></li></ol></div></section>
                 
               </div>
             
@@ -287,7 +314,7 @@
     <div class="post-meta">
       <i class="iconfont icon-tags"></i>
       
-        <a href="/tags/scribble/">#scribble</a>
+        <a href="/tags/paper-reading/">#paper reading</a>
       
     </div>
   
@@ -299,8 +326,8 @@
 
   <div class="license-box my-3">
     <div class="license-title">
-      <div>test post</div>
-      <div>https://wuyuli516.github.io/2022/08/23/test-post/</div>
+      <div>reading notes on sigcomm 2022 self-sensing concrete for structure health monitoring</div>
+      <div>https://wuyuli516.github.io/2022/09/09/reading-notes-on-sigcomm-2022-self-sensing-concrete-for-SHM/</div>
     </div>
     <div class="license-meta">
       
@@ -312,7 +339,7 @@
       
         <div class="license-meta-item license-meta-date">
           <div>Posted on</div>
-          <div>August 23, 2022</div>
+          <div>September 9, 2022</div>
         </div>
       
       
@@ -354,18 +381,12 @@
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/2022/09/09/reading-notes-on-sigcomm-2022-self-sensing-concrete-for-SHM/" title="reading notes on sigcomm 2022 self-sensing concrete for structure health monitoring">
-                        <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">reading notes on sigcomm 2022 self-sensing concrete for structure health monitoring</span>
-                        <span class="visible-mobile">Previous</span>
-                      </a>
-                    
                   </article>
                   <article class="post-next col-6">
                     
                     
-                      <a href="/2022/08/20/hello-world/" title="Hello World">
-                        <span class="hidden-mobile">Hello World</span>
+                      <a href="/2022/08/23/test-post/" title="test post">
+                        <span class="hidden-mobile">test post</span>
                         <span class="visible-mobile">Next</span>
                         <i class="iconfont icon-arrowright"></i>
                       </a>

@@ -4,6 +4,25 @@
   
   
   <entry>
+    <title>reading notes on sigcomm 2022 self-sensing concrete for structure health monitoring</title>
+    <link href="/2022/09/09/reading-notes-on-sigcomm-2022-self-sensing-concrete-for-SHM/"/>
+    <url>/2022/09/09/reading-notes-on-sigcomm-2022-self-sensing-concrete-for-SHM/</url>
+    
+    <content type="html"><![CDATA[<h2 id="vocabulary-amp-abbreviation"><a href="#vocabulary-amp-abbreviation" class="headerlink" title="vocabulary &amp; abbreviation"></a>vocabulary &amp; abbreviation</h2><ul><li>faraday cage</li><li>fiber optical sensor</li><li>fiber Bragg grating sensor</li><li>piezoelectric sensor</li><li>elastic wave: comprises of body wave and surface wave</li><li>body wave: comprises of primary wave(P-wave) and secondary wave(S-wave)</li><li>PZT: convert mechanical waves into electric signals at the same frequency or vice versa</li><li>PBS: piezoelectric backscatter system</li><li>OOK: on&#x2F;off keying</li><li>FSK: frequency shifting keying</li><li>Helmholtz resonator</li><li>critical angle</li><li>Snell’s law</li><li>PIE: pulse interval encoding</li><li>impedance switch:?</li><li>FM0 coding scheme:?</li><li>BLF: backscatter link frequency ?</li><li>TDMA: time division multiple access (mechanism ?)</li><li>Young’s modulus</li></ul><h2 id="inspiration"><a href="#inspiration" class="headerlink" title="inspiration"></a>inspiration</h2><p>piezoelectric backscatter system applied in underwater communication<sup id="fnref:1" class="footnote-ref"><a href="#fn:1" rel="footnote"><span class="hint--top hint--rounded" aria-label="Reza Ghaarivardavagh, Sayed Saad Afzal, Osvy Rodriguez, and Fadel Adib. 2020.Ultra-wideband underwater backscatter via piezoelectric metamaterials. In Proc.of ACM SIGCOMM. 722–734.">[1]</span></a></sup><sup id="fnref:2" class="footnote-ref"><a href="#fn:2" rel="footnote"><span class="hint--top hint--rounded" aria-label="Junsu Jang and Fadel Adib. 2019. Underwater backscatter networking. In Proc. of ACM SIGCOMM. 187–199.">[2]</span></a></sup></p><h2 id="challenges"><a href="#challenges" class="headerlink" title="challenges"></a>challenges</h2><ol><li>The propagation of mechanical waves in solid is more complicated than in liquid. In solid, there are several modes of wave, leading to severe self-interference. While in liquid, there is only one mode, making it easier to harvest energy and decode symbol. –&gt; leverage prism to eliminate other modes and maintain only S-waves</li><li>Due to the ring effect, the PZT still vibrates after turning off the voltage, leading to self-interference. So traditional OOK method does not work. –&gt; leverage resonant effect and FSK to tackle the problem</li><li>The high external pressure from concrete. –&gt; design spherical and stressless shells to combat against the pressure, add Helmholtz resonator to amplify the received waves</li></ol><h2 id="reference"><a href="#reference" class="headerlink" title="reference"></a>reference</h2><section class="footnotes"><div class="footnote-list"><ol><li><span id="fn:1" class="footnote-text"><span>Reza Ghaarivardavagh, Sayed Saad Afzal, Osvy Rodriguez, and Fadel Adib. 2020.Ultra-wideband underwater backscatter via piezoelectric metamaterials. In Proc.of ACM SIGCOMM. 722–734.<a href="#fnref:1" rev="footnote" class="footnote-backref"> ↩</a></span></span></li><li><span id="fn:2" class="footnote-text"><span>Junsu Jang and Fadel Adib. 2019. Underwater backscatter networking. In Proc. of ACM SIGCOMM. 187–199.<a href="#fnref:2" rev="footnote" class="footnote-backref"> ↩</a></span></span></li></ol></div></section>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>paper reading</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>test post</title>
     <link href="/2022/08/23/test-post/"/>
     <url>/2022/08/23/test-post/</url>
